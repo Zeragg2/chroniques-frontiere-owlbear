@@ -1,7 +1,0 @@
-{
-  "name":"Chroniques de la Frontière",
-  "version":"0.1.0",
-  "manifest_version":1,
-  "description":"Fiche personnage légère pour Chroniques de la Frontière.",
-  "action":{"title":"Chroniques de la Frontière","icon":"/icon.svg","popover":"/","width":390,"height":680}
-}
