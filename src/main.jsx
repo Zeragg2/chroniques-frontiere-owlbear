@@ -211,10 +211,13 @@ function App() {
               data.character ||
               'Personnage';
 
-            setResult(
-              `${character}
-${data.text}`
-            );
+            if (OBR.isAvailable) {
+
+              OBR.notification.show(
+                `${character} : ${data.text}`
+              );
+
+            }
 
           }
         );
