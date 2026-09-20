@@ -943,11 +943,11 @@ function App() {
 
     const roll =
       advantage
-        ? Math.max(
+        ? Math.min(
             roll1,
             roll2
           )
-        : Math.min(
+        : Math.max(
             roll1,
             roll2
           );
